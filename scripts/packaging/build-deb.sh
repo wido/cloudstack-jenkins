@@ -2,11 +2,9 @@
 
 set -e
 
-cd `dirname $0`
-
 BRANCH="master"
 
-./clone-source.sh $BRANCH
+`dirname $0`/clone-source.sh $BRANCH
 
 cd cloudstack
 
